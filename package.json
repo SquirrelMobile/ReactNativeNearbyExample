@@ -1,0 +1,44 @@
+{
+  "name": "protonearby",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.14.1",
+    "@react-native-community/push-notification-ios": "^1.8.0",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-background-actions": "^2.6.0",
+    "react-native-bluetooth-status": "^1.5.1",
+    "react-native-device-info": "^8.0.7",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-google-nearby-messages": "^1.0.20",
+    "react-native-location-enabler": "^4.0.6",
+    "react-native-paper": "^4.7.2",
+    "react-native-parallax-header": "^1.1.4",
+    "react-native-push-notification": "^7.2.3",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-sticky-parallax-header": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
