@@ -3,7 +3,7 @@
 </p>
 <img src="./screens/screen2.jpg" width="200" />
 
-An example of use **Google Nearby Messages** (https://github.com/mrousavy/react-native-google-nearby-messages) API Wrapper for **React Native**
+Example of a ReactNative project with an async Google Nearby Messages API Wrapper (https://github.com/SquirrelMobile/react-native-google-nearby-messages) for React Native (Android & iOS), supporting autolinking, custom discovery modes (broadcast, scan, ..), custom discovery mediums (bluetooth, audio, ..), awaitable native invokations and React hooks!
 
 ## Install
 
